@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFXIV_Trading_API", "FFXIV_Trading\FFXIV_Trading_API.csproj", "{906D497F-4F93-4851-AB77-EF4B3F82A8F9}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FFXIV_Trading_UI", "FFXIV_Trading_UI\FFXIV_Trading_UI.esproj", "{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7E9BD27D-B4C1-49D0-94FD-5F6A6B26C76C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906D497F-4F93-4851-AB77-EF4B3F82A8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906D497F-4F93-4851-AB77-EF4B3F82A8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906D497F-4F93-4851-AB77-EF4B3F82A8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906D497F-4F93-4851-AB77-EF4B3F82A8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE49F23-BB5F-4D0D-8064-CC7227AEAA98}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7E9BD27D-B4C1-49D0-94FD-5F6A6B26C76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9BD27D-B4C1-49D0-94FD-5F6A6B26C76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9BD27D-B4C1-49D0-94FD-5F6A6B26C76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9BD27D-B4C1-49D0-94FD-5F6A6B26C76C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DFC612B-1E9F-4F10-BAEE-CB2644976619}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  ffxiv_trading_api:
+    image: ffxiv_trading_api
+    build:
+      context: .
+      dockerfile: FFXIV_Trading/dockerfile
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+
+
+  ffxiv_trading_ui:
+    image: ffxiv_trading_ui
+    build:
+      context: .
+      dockerfile: FFXIV_Trading_UI/Dockerfile
+    depends_on:
+      - ffxiv_trading_api
+    ports:
+      - "4200:80"

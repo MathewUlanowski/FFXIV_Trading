@@ -1,0 +1,6 @@
+@FFXIV_Trading_HostAddress = http://localhost:5208
+
+GET {{FFXIV_Trading_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
